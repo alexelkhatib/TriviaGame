@@ -1,0 +1,142 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <meta http-equiv="X-UA-Compatible" content="ie=edge">
+    <title>Hip-Hop Trivia Game</title>
+    <link rel="stylesheet" type="text/css" href="assets/css/reset.css" />
+    <!-- Latest compiled and minified CSS -->
+    <link rel="stylesheet" href="https://maxcdn.bootstrapcdn.com/bootstrap/3.3.7/css/bootstrap.min.css" integrity="sha384-BVYiiSIFeK1dGmJRAkycuHAHRg32OmUcww7on3RYdg4Va+PmSTsz/K68vbdEjh4u"
+        crossorigin="anonymous">
+    <!-- Optional theme
+    <link rel="stylesheet" href="https://maxcdn.bootstrapcdn.com/bootstrap/3.3.7/css/bootstrap-theme.min.css" integrity="sha384-rHyoN1iRsVXV4nD0JutlnGaslCJuC7uwjduW9SVrLvRYooPp2bWYgmgJQIXwl/Sp" -->
+        <!-- crossorigin="anonymous"> -->
+    <!-- jQuery -->
+    <script src="https://code.jquery.com/jquery-3.2.1.min.js" integrity="sha256-hwg4gsxgFZhOsEEamdOYGBf13FyQuiTwlAQgxVSNgt4="
+        crossorigin="anonymous"></script>
+    <script src="https://maxcdn.bootstrapcdn.com/bootstrap/3.3.7/js/bootstrap.min.js" integrity="sha384-Tc5IQib027qvyjSMfHjOMaLkfuWVxZxUPnCJA7l2mCWNIpG9mGCD8wGNIcPD7Txa"
+        crossorigin="anonymous"></script>
+    <link rel="stylesheet" type="text/css" href="assets/css/style.css">
+    
+</head>
+<body class="main">
+    <div class="container">
+        <div class="jumbotron">
+            <h1>Hip-Hop Trivia Game</h1>
+        </div>
+        <div id="musicbox" class="card">
+            <div id="musicControls" class="text-center">
+                <button class=" col-md-6 theme-button" id="play_button">
+                    <span class="fa fa-music"></span> Play Music!</button>
+                <button class="col-md-6 pause-button" id="pause_button">
+                    <span class="fa fa-pause"></span> Pause Music</button>
+            </div>
+        </div>
+                    <br>
+                    <br>
+        <row>
+            <br>
+            <div class="col-lg-12">
+                <button type="button" class="btn start btn-primary btn-lg col-lg-12" id="start_button">Start</button>
+            </div>
+        </row>
+        <row>
+            <div class="col-md-6">
+                <h2>
+                    <div id="time-holder"></div>
+                </h2>
+            </div>
+        </row>
+        <row>
+            <div class="col-md-6">
+                 <h2>
+                    <div class="rightcounter" id="counter-good"></div>
+                </h2>
+            </div>
+            <div class="col-md-6">
+                <h2>
+                    <div class="wrongcounter" id="counter-bad"></div>
+                </h2>
+            </div>
+        </row>
+        <row>
+            <div class="col-md-12">
+                <h2>
+                    <div id="question-holder"></div>
+                </h2>
+                <h2>
+                    <div id="answer-holder"></div>
+                </h2>
+            </div>
+        </row>
+        <row>
+            <div class="col-md-4"></div>
+            <div class="col-md-4" id="image-spot">
+                <h2>
+                    <div id="image-holder" class="resize_fit_center"></div>
+                </h2>
+            </div>
+            <div class="col-md-4"></div>
+        </row>
+        <row>
+            <div class="col-md-12">
+                <h2>
+                    <div id="option-holder-1"></div>
+                </h2>
+            </div>
+            <div class="col-md-4"></div>
+            <div class="col-md-4">
+                <h2>
+                    <div id="correct-holder"></div>
+                </h2>
+            </div>
+            <div class="col-md-4"></div>
+            <row>
+                <div class="col-md-12">
+                    <h2>
+                        <div id="option-holder-2"></div>
+                    </h2>
+                </div>
+                <div class="col-md-4"></div>
+                <div class="col-md-4">
+                    <h2>
+                        <div id="incorrect-holder"></div>
+                    </h2>
+                </div>
+                <div class="col-md-4"></div>
+            </row>
+            <row>
+                <div class="col-md-12">
+                    <h2>
+                        <div id="option-holder-3"></div>
+                    </h2>
+                </div>
+                <div class="col-md-4"></div>
+                <div class="col-md-4">
+                    <h2>
+                        <div id="unanswered-holder"></div>
+                    </h2>
+                </div>
+                <div class="col-md-4"></div>
+            </row>
+            <row>
+                <div class="col-md-12">
+                    <h2>
+                        <div id="option-holder-4"></div>
+                    </h2>
+                </div>
+                <div class="col-md-2"></div>
+                <div class="col-md-8">
+                    <h2>
+                        <div id="restart-holder"></div>
+                    </h2>
+                </div>
+                <div class="col-md-2"></div>
+            </row>
+    </div>
+    <footer id="footer">Created By: Alexander Elkhatib</footer>
+        <!-- JS!!! -->
+        <script src="assets/javascript/app.js"></script>
+</body>
+</html>

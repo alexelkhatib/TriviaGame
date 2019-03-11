@@ -1,0 +1,116 @@
+@font-face{
+    font-family: digital-7;
+    src: url("../fonts/style-7_digital-7/digital-7 (mono).ttf")
+}
+
+@font-face{
+    font-family: BlackOpsOne;
+    src: url("../fonts/BlackOpsOne-Regular.ttf")
+}
+option
+.btn{
+    width: 100%
+}
+
+
+h2, p{
+    width: 100%;
+    text-align: center;
+}
+
+#image-holder{
+  max-width: 50%;
+  border-radius: 8px;
+}
+
+.jumbotron{
+  background-color: gold;
+  text-align: center;
+}
+
+.main{
+  background-color: black;
+}
+
+#pause_button{
+  background-color: goldenrod;
+  color: white;
+}
+
+#play_button{
+  background-color: goldenrod;
+   color: white;
+}
+
+#start_button{
+  background-color: springgreen;
+  color: black;
+  display: flex; 
+  justify-content: center;
+}
+
+#question-holder{
+  color: white;
+}
+
+#answer-holder{
+  color:white;
+}
+
+#option-holder-1{
+  color: white;
+}
+
+#option-holder-2{
+  color: white;
+}
+
+#option-holder-3{
+  color: white;
+}
+
+#option-holder-4{
+  color: white;
+}
+
+#time-holder{
+  color:red;
+}
+
+#correct-holder{
+  color: springgreen;
+}
+
+#incorrect-holder{
+  color: red;
+}
+
+#restart-holder{
+  color: whitesmoke;
+}
+
+#unanswered-holder{
+  color:whitesmoke;
+}
+
+#counter-good{
+  color: springgreen;
+}
+
+#counter-bad{
+  color: red;
+}
+
+.image-spot {
+    margin: 10px;
+    width: 115px;
+    height: 115px;
+    line-height: 115px;
+    text-align: center;
+    border: 1px solid red;
+}
+.resize_fit_center {
+    max-width:100%;
+    max-height:100%;
+    vertical-align: middle;
+}
